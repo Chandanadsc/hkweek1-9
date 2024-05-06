@@ -1,0 +1,5 @@
+the 4 ways of authentication are
+-> hashing -> converting a single string into a complex gibberish. which cannot be converted back
+whenever you signup you give the user name and password then the password is again converted into hash and stored in the database 
+-> encryption -- 2 way -- require a key to decrypt
+-> jwt - json web tokens -- takes json as the input --- takes the json and creates a long string as an output

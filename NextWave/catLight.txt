@@ -1,0 +1,1 @@
+change the light color and the cat image when the button is clicked

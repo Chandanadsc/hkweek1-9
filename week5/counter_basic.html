@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Counter</title>
+    <script>
+        function incrementCounter() {
+            let current = document.getElementById('butn').innerHTML;
+            let currentValue = parseInt(current.split(' ')[1]);
+            const newValue = currentValue + 1;
+            document.getElementById('butn').innerHTML = 'count ' + newValue;
+        }
+    </script>
+</head>
+<body>
+    <button id="butn" onClick="incrementCounter()">count 0</button>
+</body>
+</html>

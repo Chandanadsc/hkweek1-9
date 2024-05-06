@@ -1,0 +1,70 @@
+
+// import './App.css'
+
+// import React, { useState, useEffect } from 'react';
+// function App() {
+//   const [render,setRender] = useState(true);
+// useEffect(()=>{
+//   setTimeout(()=>{
+//     setRender(false);
+
+//   },10000);
+// },[]);
+//   return (
+//     <>
+//      {render ?<MyComponent></MyComponent>: <div>empty div</div>}
+//     </>
+//   )
+// }
+// function MyComponent() {
+//   useEffect(() => {
+//     console.error("component mounted");
+
+//     return () => {
+//       console.log('component unmounted');
+//     };
+//   }, []);
+
+//   return <div>
+//     form inside my component
+//   </div>
+// }
+// export default App
+
+
+
+
+// 2nd part of the same thing mounting and unmounting continuously to see the working of the life cycle events
+
+
+// import './App.css'
+
+// import React, { useState, useEffect } from 'react';
+// function App() {
+//   const [render,setRender] = useState(true);
+// useEffect(()=>{
+//   setInterval(()=>{
+//     setRender(r=>!r);
+
+//   },5000);
+// },[]);
+//   return (
+//     <>
+//      {render ?<MyComponent></MyComponent>: <div>empty div</div>}
+//     </>
+//   )
+// }
+// function MyComponent() {
+//   useEffect(() => {
+//     console.error("component mounted");
+
+//     return () => {
+//       console.log('component unmounted');
+//     };
+//   }, []);
+
+//   return <div>
+//     form inside my component
+//   </div>
+// }
+// export default App
